@@ -1,0 +1,19 @@
+[project]
+name = "sb5-py-signal-utils"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sean Don",email = "seanyb05@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "signal-cli (>=0.1.4,<0.2.0)"
+]
+
+[tool.poetry]
+packages = [{include = "sb5_py_signal_utils", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
